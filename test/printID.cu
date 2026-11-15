@@ -10,7 +10,7 @@ __global__ void printID()
 
 int main()
 {
-    printID<<<3,4>>>();
+    printID<<<2,dim3(2,2)>>>();
     cudaDeviceSynchronize();
     return 0;
 }
