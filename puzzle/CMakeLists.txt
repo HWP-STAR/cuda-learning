@@ -11,4 +11,4 @@ set(CMAKE_CUDA_STANDARD_REQUIRED ON)
 set(CMAKE_CUDA_ARCHITECTURES 120)
 
 # 4. 创建可执行文件，并加入你的 .cu 源文件
-add_executable(output prefix_sum_12.cu)
+add_executable(output matmul_14.cu)

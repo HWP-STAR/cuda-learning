@@ -59,3 +59,6 @@ __syncthreads();等所有线程做完后进行下一步
 ## cmake编译
 CMAKE_CUDA_ARCHITECTURES 是 CMake 官方内置的变量，从 CMake 3.18 版本开始引入。
 用户可以使用set来进行设置
+
+## 维度
+1D 完全可行，但 2D 在索引计算、代码可读性、后续优化上有明显优势。
